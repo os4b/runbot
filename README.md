@@ -95,7 +95,7 @@ It is important to clone the repo with the runbot user
 
 ```bash
 git clone --depth=1 --branch=15.0 git@github.com:odoo/odoo.git
-git clone git@github.com:odoo/runbot.git
+git clone https://github.com/os4b/runbot.git
 
 git -C odoo checkout 15.0
 git -C runbot checkout 15.0
